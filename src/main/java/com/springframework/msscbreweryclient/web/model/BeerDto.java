@@ -11,13 +11,13 @@ import java.util.UUID;
  * Create by Jens on 2020-10-19
  */
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class BeerDto {
 
     private UUID id;
     private String beerName;
-    private String beerStype;
+    private String beerStyle;
     private Long upc;
 }
