@@ -11,6 +11,9 @@ import java.util.UUID;
 
 import static org.junit.Assert.assertNotNull;
 
+/**
+ * Create by Jens on 2020-10-19
+ */
 @SpringBootTest
 class BreweryClientTest {
 
